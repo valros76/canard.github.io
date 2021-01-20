@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "YuseiMagic";
+    src: url("/fonts/YuseiMagic-Regular.ttf") format("ttf");
+   }
+
+*{
+    font-family: "YuseiMagic";
+}
+
+.navbar{
+    box-shadow:
+       0px 0px 1px -1px var(--darkorange-color),
+       0px 1px 1px -1px var(--darkorange-color),
+       0px 2px 1px -1px var(--darkorange-color),
+       0px 3px 1px -1px var(--darkorange-color),
+       0px 4px 1px -1px var(--darkorange-color),
+       0px 5px 1px -1px var(--darkorange-color);
+    z-index: 2;
+ }
+ 
+ .navbar-toggler-icon {
+   filter: invert(1);
+ }
+ 
+ .nav-link {
+   transition: border 0.125s ease-in-out;
+   border-bottom: 5px solid transparent;
+   border-top: 5px solid transparent;
+ }
+ :root {
+   --dark-color: #1c3246;
+   --light-color: #ede4d9;
+   --mid-color: #e5b385;
+   --yellow-color: #e6ba3b;
+   --darkorange-color: #dd481f;
+   --midorange-color: #ea6737;
+   --yusei-magic: "Yusei Magic", sans-serif;
+ }
+ .galery-light-bg{
+    background-color:var(--light-color);
+ }
+ 
+ .galery-dark-bg{
+    background-color:var(--dark-color);
+ }
+ 
+ .galery-mid-bg{
+    background-color:var(--mid-color);
+ }
+ 
+ .galery-yellow-bg{
+    background-color:var(--yellow-color);
+ }
+ 
+ .galery-darkorange-bg{
+    background-color:var(--darkorange-color);
+ }
+ 
+ .galery-midorange-bg{
+    background-color:var(--midorange-color);
+ }
+ 
+ .galery-light-color{
+    color:var(--light-color)!important;
+ }
+ 
+ .galery-dark-color{
+    color:var(--dark-color);
+ }
+ 
+ .galery-mid-color{
+    color:var(--mid-color);
+ }
+ 
+ .galery-yellow-color{
+    color:var(--yellow-color);
+ }
+ 
+ .galery-darkorange-color{
+    color:var(--darkorange-color);
+ }
+ 
+ .galery-midorange-color{
+    color:var(--midorange-color);
+ }

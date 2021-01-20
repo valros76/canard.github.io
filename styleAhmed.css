@@ -1,0 +1,79 @@
+body
+{
+	background-color: #e5b385;
+}
+:root{
+   --dark-color:#1C3246;
+   --light-color:#EDE4D9;
+   --mid-color:#E5B385;
+   --yellow-color:#E6BA3B;
+   --darkorange-color:#DD481F;
+   --midorange-color:#EA6737;
+   --yusei-magic:"Yusei Magic", sans-serif;
+}
+
+.galery-light-bg{
+   background-color:var(--light-color);
+}
+
+.galery-dark-bg{
+   background-color:var(--dark-color);
+}
+
+.galery-mid-bg{
+   background-color:var(--mid-color);
+}
+
+.galery-yellow-bg{
+   background-color:var(--yellow-color);
+}
+
+.galery-darkorange-bg{
+   background-color:var(--darkorange-color);
+}
+
+.galery-midorange-bg{
+   background-color:var(--midorange-color);
+}
+
+.galery-light-color{
+   color:var(--light-color)!important;
+}
+
+.galery-dark-color{
+   color:var(--dark-color);
+}
+
+.galery-mid-color{
+   color:var(--mid-color);
+}
+
+.galery-yellow-color{
+   color:var(--yellow-color);
+}
+
+.galery-darkorange-color{
+   color:var(--darkorange-color);
+}
+
+.galery-midorange-color{
+   color:var(--midorange-color);
+}
+
+.navbar-toggler-icon{
+   filter:invert(1);
+}
+
+.nav-link{
+   transition:border 0.125s ease-in-out;
+   border-bottom:5px solid transparent;
+}
+.nav-link:hover{
+   border-bottom:5px solid var(--light-color);
+   padding-left:0.5em;
+}
+.carousel-inner img {
+    height: 250px;
+   /*width: 33%;*/
+  }
+ 

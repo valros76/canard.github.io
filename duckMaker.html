@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/e6be42ec4c.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="shortcut icon" href="public/assets/images/favicon/ducky-logo.png" type="image/png">
+        <link rel="stylesheet" href="css/duckMaker.css">
+        <title>Duck Maker</title>
+    </head>
+    <body>
+        <div id="header">
+            <nav class="navbar navbar-expand-lg navbar-light galery-dark-bg">
+                <a class="navbar-brand galery-light-color" href="index.html">
+                    <img src="public/assets/images/apropos/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Ducky logo">
+                    Univers de Canard
+                </a>            
+                <button class="navbar-toggler galery-midorange-bg galery-light-color" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active galery-light-color" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link galery-light-color" href="aPropos.html">Mon histoire</a>
+                        <a class="nav-item nav-link galery-light-color" href="galerie.html">Galerie</a>
+                        <a class="nav-item nav-link galery-light-color" href="duckMaker.html">Duck Maker</a>
+                        <a class="nav-item nav-link galery-light-color" href="aide.html">Besoin d'aide ?</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container" id="duckMaker">
+            <div class="row p-3 p-md-5">
+                <h1 class="col-12 text-center">Crée ton canard personnalisé ! </h1>
+                <div class="col-12 col-md-6">
+                    <div id="backDuck">
+                        <img src="public/assets/images/duckMaker.png" alt="" class="img-fluid">
+                        <div id="eyesDuck"></div>
+                        <canvas id="myCanvas" width="500px" height="500px">
+                        </canvas>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 ">
+                    <div class=" p-3 px-md-5" id="buttonDuck">
+                        <div class="row" id="backColor">
+                            <p class="col-12 text-bold">Choisis ta couleur :</p>
+                            <button id="backYellow"></button>
+                            <button id="backBlue"></button>
+                            <button id="backGreen"></button>
+                            <button id="backWhite"></button>
+                        </div>
+                        <div class="row" id="eyesColor">
+                            <p class="col-12">Choisis ta couleur des yeux</p>
+                            <button id="eyesRed"></button>
+                            <button id="eyesBlue"></button>
+                            <button id="eyesGreen"></button>
+                        </div>
+                        <div class="row" id="accessory">
+                            <p class="col-12">Choisis ton accessoire :</p>
+                            <button id="moustache">Moustache</button>
+                            <button id="casquette">Casquette</button>
+                            <button id="echarpe">Echarpe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="footer">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="row">
+                        <div class="col-md-6 p-4">
+                            <img class="img-fluid" src="public/assets/images/apropos/aPropos2.jpg" alt="image de canards en plastique" id="banner_aPropos">
+                        </div>
+                        <div class="col-md-6 p-3">
+                            <h3 class="galery-light-color text-center p-3">Rejoignez-nous ! </h3>
+                            <div class="row justify-content-around" id="icon_reseaux_footer">
+                                <a href=""><i class="fab fa-facebook-square fa-3x galery-dark-bg"></i></a>
+                                <a class="galery-dark-bg"href=""><i class="fab fa-twitter-square  fa-3x"></i></a>
+                                <a href=""><i class="fab fa-instagram-square fa-3x"></i> </a>                           
+                            </div>
+                            <p class="text-center galery-light-color mt-3">Vous pouvez aussi me contacter par mail à :<br> <a href="mailto:univers-de-canard@gmail.com">univers-de-canard@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <p class="col-12 text-center galery-light-color">&copy; Univers de Canard - 2021 - Voir nos <a href="mentions.html">mentions légales</a></p>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script src="https://kit.fontawesome.com/e6be42ec4c.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- <script src="js/cookies.js"></script> -->
+        <script type="text/javascript" src="js/duckMaker.js"></script>
+    </body>
+</html>

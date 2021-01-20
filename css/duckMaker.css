@@ -1,0 +1,61 @@
+#backDuck{
+    background-color: yellow;
+    border: 3px solid #1c3246;
+    position: relative;
+}
+#eyesDuck{
+    position: absolute;
+    top: 43%;
+    left: 54%;
+    width: 3%;
+    height: 3%;
+    background-color: black;
+    border-radius: 100%;
+}
+#myCanvas{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+#buttonDuck{
+    border: 3px solid #1c3246;
+
+}
+
+#buttonDuck button{
+    padding:2%;
+    margin: auto;
+}
+
+#backColor button , #eyesColor button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+#backYellow{
+    background-color: yellow;
+}
+#backBlue{
+    background-color: blue;
+}
+#backGreen{
+    background-color: green;
+}
+#backWhite{
+    background-color: #fefee2;
+}
+#eyesRed{
+    background-image: radial-gradient(circle, #858cff, #b274e5, #d059c1, #e03f97, #e22b6b, #e34548, #d76228, #c27b07, #a9a42b, #8bc667, #6be3ad, #5ffbf1);
+}
+#eyesBlue{
+    background-image: radial-gradient(circle, #2a2805, #404703, #506a00, #598f00, #55b800, #7ec400, #a4d000, #c8db00, #fac93d, #ffbb6e, #ffb699, #ffbbbb);
+}
+#eyesGreen{
+    background-image: radial-gradient(circle, #000000, #310f18, #5d0f22, #8b0826, #b80023, #cf222c, #e63836, #fe4c40, #ff6b61, #ff8781, #ffa19f, #ffbbbb);
+}
+
+
